@@ -1,0 +1,96 @@
+.div1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  padding: 20px;
+  gap: 15px;
+  border: 1px solid #000000; 
+  border-radius: 10px;
+  background-color: #ffffff; 
+  transition: all 0.3s ease-in-out;
+}
+
+.processo {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  color: #000000; 
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.processo:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+  background-color: #969696;
+  color: #000000; 
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  padding: 20px;
+  gap: 15px;
+  border: 1px solid #224459;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0);
+  transition: all 0.0s ease-in-out;
+}
+
+.div2:hover {
+  transform: translateY(px);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #000000; 
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.verificar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.verificarbtn {
+  width: 120px;
+  height: 50px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #f0efef;
+  color: #000000; 
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.0s ease-in-out;
+}
+
+.verificarbtn:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+  transform: scale(1.01);
+}

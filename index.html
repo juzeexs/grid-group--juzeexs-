@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag Drop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <h1>Organizando o Fluxo de um Centro de Distribuição</h1>
+  <body>
+    <div class="container">
+      <div class="div1" ondragover="dragover(event)" ondrop="drop(event)">
+        <button id="4"draggable="true"ondragstart="dragstart(event)"class="processo">
+          Expedição
+        </button>
+        
+        <button id="2"draggable="true"ondragstart="dragstart(event)"class="processo">
+          Armazenamento
+        </button>
+        
+        <button id="0"draggable="true"ondragstart="dragstart(event)"class="processo">
+          Recebimento
+        </button>
+        
+        <button id="3"draggable="true"ondragstart="dragstart(event)"class="processo">
+          Separação
+        </button>
+        
+        <button id="1"draggable="true"ondragstart="dragstart(event)"class="processo">
+          Conferência
+        </button>
+      </div>
+      <div class="div2" ondragover="dragover(event)" ondrop="drop(event)"></div>
+    </div>
+    <div class="verificar">
+      <button class="verificarbtn" onclick="verificar()">Testar</button>
+    </div>
+</body>
+</html>
